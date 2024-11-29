@@ -107,7 +107,7 @@
 
             bindings = <
 &kp GRAVE  &kp EXCL      &kp UP_ARROW  &kp HASH   &kp DLLR   &kp PRCNT    &mmv MOVE_UP     &kp CARET   &kp MINUS  &kp EQUAL  &kp LBKT  &kp RBKT  &kp BSLH
-&trans     &kp LEFT      &kp DOWN      &kp RIGHT  &mkp RCLK  &mkp MB4     &mmv MOVE_DOWN   &kp MINUS   &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH  &kp ENTER
+&trans     &kp LEFT      &kp DOWN      &kp RIGHT  &mkp RCLK  &mkp MB4     &mmv MOVE_DOWN   &kp MINUS   &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH  &soft_off
 &trans     &out OUT_USB  &out OUT_BLE  &none      &none      &mkp MB5     &mmv MOVE_LEFT   &kp UNDER   &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &kp TILDE
                          &trans        &trans     &trans     &kp SPACE    &mmv MOVE_RIGHT  &kp DELETE  &trans     &trans
                                                                           &mkp LCLK
@@ -129,6 +129,16 @@
 
             label = "FN";
             sensor-bindings = <&scroll_encoder>;
+        };
+
+        layer_4 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans
+                                                  &trans
+            >;
         };
     };
 };
