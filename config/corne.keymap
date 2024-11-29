@@ -85,9 +85,9 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp GRAVE  &trans        &kp UP_ARROW  &trans     &trans  &trans       &mmv MOVE_UP     &msc SCRL_UP    &mkp LCLK       &mmv MOVE_UP      &mkp RCLK          &trans  &kp DELETE
-&trans     &kp LEFT      &kp DOWN      &kp RIGHT  &trans  &trans       &mmv MOVE_DOWN   &msc SCRL_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN    &mmv MOVE_RIGHT    &trans  &soft_off
-&trans     &out OUT_USB  &out OUT_BLE  &none      &none   &trans       &mmv MOVE_LEFT   &kp MINUS       &kp EQUAL       &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans  &trans
+&kp GRAVE  &trans        &kp UP_ARROW  &trans     &trans  &trans       &mmv MOVE_UP     &msc SCRL_UP    &mkp LCLK       &mmv MOVE_UP      &mkp RCLK          &kp K_BACK  &kp DELETE
+&trans     &kp LEFT      &kp DOWN      &kp RIGHT  &trans  &trans       &mmv MOVE_DOWN   &msc SCRL_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN    &mmv MOVE_RIGHT    &trans      &soft_off
+&trans     &out OUT_USB  &out OUT_BLE  &none      &none   &trans       &mmv MOVE_LEFT   &kp MINUS       &kp EQUAL       &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans      &trans
                          &trans        &trans     &trans  &kp SPACE    &mmv MOVE_RIGHT  &mkp LCLK       &trans          &trans
                                                                        &mkp LCLK
             >;
@@ -122,6 +122,16 @@
             >;
 
             sensor-bindings = <&scroll_encoder>;
+        };
+
+        layer_4 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans
+                                                  &trans
+            >;
         };
     };
 };
