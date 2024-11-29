@@ -7,7 +7,7 @@ layers:
   - E
   - R
   - T
-  - '&mmv UP_ARROW'
+  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - Y
   - U
   - I
@@ -20,7 +20,7 @@ layers:
   - D
   - F
   - G
-  - '&mmv DOWN_ARROW'
+  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - H
   - J
   - K
@@ -33,7 +33,7 @@ layers:
   - C
   - V
   - B
-  - '&mmv LEFT_ARROW'
+  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - N
   - M
   - {t: ',', s: <}
@@ -44,7 +44,7 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-command$$
   - {t: '$$mdi:keyboard-space$$', h: FN}
-  - '&mmv RIGHT_ARROW'
+  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:backspace$$', type: backspace}
   - NUMBER
   - $$mdi:apple-keyboard-option$$
