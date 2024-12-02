@@ -85,11 +85,11 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp GRAVE  &trans        &kp UP_ARROW  &trans     &trans  &trans       &mmv MOVE_UP     &msc SCRL_UP    &mkp LCLK       &mmv MOVE_UP      &mkp RCLK          &mkp MB5   &kp DELETE
-&trans     &kp LEFT      &kp DOWN      &kp RIGHT  &trans  &trans       &mmv MOVE_DOWN   &msc SCRL_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN    &mmv MOVE_RIGHT    &mkp MB4   &soft_off
-&trans     &out OUT_USB  &out OUT_BLE  &none      &none   &trans       &mmv MOVE_LEFT   &kp MINUS       &kp EQUAL       &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &mkp MCLK  &trans
-                         &trans        &trans     &trans  &kp SPACE    &mmv MOVE_RIGHT  &mkp LCLK       &trans          &trans
-                                                                       &mkp LCLK
+&kp GRAVE  &trans        &kp UP_ARROW  &trans     &trans                &trans              &mmv MOVE_UP     &msc SCRL_UP       &mkp LCLK              &mmv MOVE_UP    &mkp RCLK        &mkp MB5   &kp DELETE
+&trans     &kp LEFT      &kp DOWN      &kp RIGHT  &trans                &trans              &mmv MOVE_DOWN   &msc SCRL_DOWN     &mmv MOVE_LEFT         &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mkp MB4   &soft_off
+&trans     &out OUT_USB  &out OUT_BLE  &none      &kp LEFT_PARENTHESIS  &kp LEFT_BRACKET    &mmv MOVE_LEFT   &kp RIGHT_BRACKET  &kp RIGHT_PARENTHESIS  &kp MINUS       &kp EQUAL        &mkp MCLK  &trans
+                         &trans        &trans     &trans                &kp SPACE           &mmv MOVE_RIGHT  &mkp LCLK          &trans                 &trans
+                                                                                            &mkp LCLK
             >;
 
             label = "SYMBOL";
