@@ -64,10 +64,10 @@
             //                                                      enter
 
             bindings = <
-&kp ESCAPE      &kp Q  &kp W             &kp E             &kp R             &kp T          &mmv MOVE_UP     &kp Y            &kp U              &kp I      &kp O    &kp P     &kp BACKSPACE
-&lt 1 TAB       &kp A  &kp S             &kp D             &kp F             &kp G          &mmv MOVE_DOWN   &kp H            &kp J              &kp K      &kp L    &kp SEMI  &kp SQT
-&kp LEFT_SHIFT  &kp Z  &kp X             &kp C             &kp V             &kp B          &mmv MOVE_LEFT   &kp N            &kp M              &kp COMMA  &kp DOT  &kp FSLH  &lt 3 BACKSLASH
-                       &kp K_PLAY_PAUSE  &kp LEFT_CONTROL  &kp LEFT_COMMAND  &lt 2 SPACE    &mmv MOVE_RIGHT  &lt 2 BACKSPACE  &kp RIGHT_COMMAND  &kp RALT
+&kp ESCAPE      &kp Q  &kp W             &kp E             &kp R             &kp T          &mmv MOVE_UP     &kp Y            &kp U  &kp I      &kp O    &kp P     &kp BACKSPACE
+&lt 1 TAB       &kp A  &kp S             &kp D             &kp F             &kp G          &mmv MOVE_DOWN   &kp H            &kp J  &kp K      &kp L    &kp SEMI  &kp SQT
+&kp LEFT_SHIFT  &kp Z  &kp X             &kp C             &kp V             &kp B          &mmv MOVE_LEFT   &kp N            &kp M  &kp COMMA  &kp DOT  &kp FSLH  &lt 3 BACKSLASH
+                       &kp K_PLAY_PAUSE  &kp LEFT_CONTROL  &kp LEFT_COMMAND  &lt 2 SPACE    &mmv MOVE_RIGHT  &lt 2 BACKSPACE  &mo 1  &kp RALT
                                                                                             &mkp LCLK
             >;
 
