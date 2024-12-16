@@ -1,9 +1,12 @@
 #include <behaviors/mouse_keys.dtsi>
+#include <dt-bindings/zmk/mouse.h>
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/mouse.h>
 #include <dt-bindings/zmk/outputs.h>
+#include <dt-bindings/zmk/pointing.h>
+#include <dt-bindings/zmk/pointing.h>
+#include <dt-bindings/zmk/pointing.h>
 #include <dt-bindings/zmk/rgb.h>
 
 #define ZMK_MOUSE_DEFAULT_MOVE_VAL 1200  // 600
@@ -86,7 +89,7 @@
 
             bindings = <
 &kp GRAVE  &trans        &kp UP_ARROW  &trans     &trans                &trans              &mmv MOVE_UP     &msc SCRL_UP       &mkp LCLK              &mmv MOVE_UP    &mkp RCLK        &mkp MB5   &kp DELETE
-&trans     &kp LEFT      &kp DOWN      &kp RIGHT  &trans                &trans              &mmv MOVE_DOWN   &msc SCRL_DOWN     &mmv MOVE_LEFT         &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mkp MB4   &soft_off
+&trans     &kp LEFT      &kp DOWN      &kp RIGHT  &kp LEFT_BRACE        &kp RIGHT_BRACE     &mmv MOVE_DOWN   &msc SCRL_DOWN     &mmv MOVE_LEFT         &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mkp MB4   &soft_off
 &trans     &out OUT_USB  &out OUT_BLE  &none      &kp LEFT_PARENTHESIS  &kp LEFT_BRACKET    &mmv MOVE_LEFT   &kp RIGHT_BRACKET  &kp RIGHT_PARENTHESIS  &kp MINUS       &kp EQUAL        &mkp MCLK  &trans
                          &trans        &trans     &trans                &kp SPACE           &mmv MOVE_RIGHT  &mkp LCLK          &trans                 &trans
                                                                                             &mkp LCLK
