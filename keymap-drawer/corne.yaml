@@ -67,8 +67,8 @@ layers:
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '{'
+  - '}'
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - $$mdi:pan-down$$
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
@@ -113,17 +113,17 @@ layers:
   - F10
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - Sft+ !
-  - Sft+ @
-  - 'Sft+ #'
-  - Sft+ $
-  - Sft+ %
+  - Sft+!
+  - Sft+@
+  - Sft+#
+  - Sft+$
+  - Sft+%
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - Sft+ ^
-  - Sft+ &
-  - Sft+ *
-  - Sft+ (
-  - Sft+ )
+  - Sft+^
+  - Sft+&
+  - Sft+*
+  - Sft+(
+  - Sft+)
   - F11
   - {t: '$$mdi:transfer$$', type: trans}
   - '1'
@@ -207,8 +207,8 @@ layers:
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
   - {t: '9', s: (}
-  - Sft+ +
-  - Sft+ *
+  - Sft++
+  - Sft+*
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
