@@ -14,7 +14,7 @@
 #define U_MS_R &mmv MOVE_RIGHT
 
 &lt {
-    tapping-term-ms = <120>;
+    tapping-term-ms = <160>;
 };
 
 / {
